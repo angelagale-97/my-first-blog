@@ -7,7 +7,22 @@
     <header>
         <h1><a href="/">Angela Gale's Blog</a></h1>
     </header>
+    <header>
     <h2><a href="">My Posts</a></h2>
             <p>This site includes a few blog posts on how I created my first Django site.</p>
+    </header>
+    {% for post in posts%}
+        <article>
+            <time>published: {{ post.published_date }}</time>
+            <h3><a href="">{{ post.title }}</a></h3>
+            <p>{{ post.text|linebreaksbr }}</p>
+        </article>
+    {% endfor %}
+        <article>
+            <time>published: {{ post.published_date }}</time>
+            <h3><a href="">{{ post.title }}</a></h3>
+            <p>{{ post.text|linebreaksbr }}</p>
+        </article>
+        {% endfor %}
 </body>
 </html>
