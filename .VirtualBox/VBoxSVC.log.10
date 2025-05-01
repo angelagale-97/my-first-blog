@@ -1,0 +1,157 @@
+00:00:00.005788 main     VirtualBox COM Server 7.1.4 r165100 win.amd64 (Oct 10 2024 18:57:17) release log
+00:00:00.005796 main     Log opened 2024-11-30T13:43:11.653782800Z
+00:00:00.005797 main     Build Type: release
+00:00:00.005810 main     OS Product: Windows 11
+00:00:00.005813 main     OS Release: 10.0.26100
+00:00:00.005814 main     OS Service Pack: 
+00:00:00.049043 main     DMI Product Name: Surface Laptop Go
+00:00:00.071483 main     DMI Product Version: 124I:00057T:000M:0000000D:0B:04F:1C:05P:48S:01E:0Y:0K:0U:02
+00:00:00.071492 main     Firmware type: UEFI
+00:00:00.072335 main     Secure Boot: Enabled
+00:00:00.072357 main     Host RAM: 7778MB (7.5GB) total, 2902MB (2.8GB) available
+00:00:00.072367 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.072368 main     Process ID: 14848
+00:00:00.072369 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.072373 main     Windows Features:
+00:00:00.072374 main       Core Isolation (Memory Integrity): ENABLED
+00:00:00.193341          VirtualBox: object creation starts
+00:00:00.193698          Home directory: 'C:\Users\andre\.VirtualBox'
+00:00:00.193943          Installed Drivers:
+00:00:00.228440          Loading settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.231805          usbLibGetDevices: Starting USB device enumeration
+00:00:00.263497          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:00.263767          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:00:00.264042          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.269384          usbLibGetDevices: Found 5 USB devices, 0 captured
+00:00:00.269569          USB: Unknown USB device detected (idVendor: 0x0408, idProduct: 0x1110)
+00:00:00.269787          USB: Unknown USB device detected (idVendor: 0x04f3, idProduct: 0x0c5a)
+00:00:00.269880          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0026)
+00:00:00.449673          netIfIsWireless: CreateFile on '\\.\{89F15BA9-31DF-43AD-A78C-8FCA1B7EC66B}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.461237          HostDnsMonitor: initializing
+00:00:00.477746          HostDnsMonitor: updating information
+00:00:00.477774          HostDnsMonitor: old information
+00:00:00.477775            no server entries
+00:00:00.477776            no domain set
+00:00:00.477776            no search string entries
+00:00:00.477776          HostDnsMonitor: new information
+00:00:00.477777            server 1: 8.8.8.8
+00:00:00.477778            server 2: 1.1.1.1
+00:00:00.477778            domain: publicwireless.stvincent.org
+00:00:00.477779            no search string entries
+00:00:00.483098          VD: VDInit finished with VINF_SUCCESS
+00:00:00.485557          Platform architecture set to 'x86'
+00:00:00.503059          Loading settings file "C:\Users\andre\VirtualBox VMs\Linux Mint\Linux Mint.vbox" with version "1.19-windows"
+00:00:00.503631          Platform architecture set to 'x86'
+00:00:00.504223          Platform architecture set to 'x86'
+00:00:00.518591          Loading settings file "C:\Users\andre\VirtualBox VMs\Fedora\Fedora.vbox" with version "1.19-windows"
+00:00:00.518933          Platform architecture set to 'x86'
+00:00:00.519713          VirtualBox: object created
+00:00:00.983446          Saving settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.988742          Finished saving settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml"
+00:00:00.989169          Saving settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.993289          Finished saving settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml"
+00:00:00.993684          Saving settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.997667          Finished saving settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml"
+00:00:02.662431          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:02.836887          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:04.882211          Saving settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:04.890620          Finished saving settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml"
+00:00:04.914601          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:04.942205          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:06.424757          Launched VM: 2898748736 pid: 15012 (0x3aa4) frontend: GUI/Qt name: Linux Mint
+00:00:06.526379          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:06.571379          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:18.668062          Platform architecture set to 'x86'
+00:00:19.040089          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:19.057030          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:20.966719          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:21.152065          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:27.151897          netIfIsWireless: CreateFile on '\\.\{89F15BA9-31DF-43AD-A78C-8FCA1B7EC66B}' failed with rcWin=2 (0x2) - ignoring
+00:00:27.431684          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:27.452908          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:00:27.466768          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:27.491765          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:00:27.646849          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:00:27.668283          Saving settings file "C:\Users\andre\VirtualBox VMs\Linux Mint\Linux Mint.vbox" with version "1.19-windows"
+00:00:27.675535          Finished saving settings file "C:\Users\andre\VirtualBox VMs\Linux Mint\Linux Mint.vbox"
+00:00:27.698872          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:27.707229          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:00:29.342094          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:29.342963          HostDnsMonitorProxy::GetDomainName: publicwireless.stvincent.org
+00:00:29.343042          HostDnsMonitorProxy::GetNameServers:
+00:00:29.343056            name server 1: 8.8.8.8
+00:00:29.343061            name server 2: 1.1.1.1
+00:00:29.343115          HostDnsMonitorProxy::GetSearchStrings:
+00:00:29.343123            no search string entries
+00:00:29.367245          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:29.456104          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:29.494694          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:32.368992          Saving settings file "C:\Users\andre\VirtualBox VMs\Linux Mint\Linux Mint.vbox" with version "1.19-windows"
+00:00:32.380089          Finished saving settings file "C:\Users\andre\VirtualBox VMs\Linux Mint\Linux Mint.vbox"
+00:00:32.405728          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:32.485006          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:35.569559          Saving settings file "C:\Users\andre\VirtualBox VMs\Linux Mint\Linux Mint.vbox" with version "1.19-windows"
+00:00:35.577356          Finished saving settings file "C:\Users\andre\VirtualBox VMs\Linux Mint\Linux Mint.vbox"
+00:00:35.592873          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:35.614329          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:45.630924          Saving settings file "C:\Users\andre\VirtualBox VMs\Linux Mint\Linux Mint.vbox" with version "1.19-windows"
+00:00:45.654652          Finished saving settings file "C:\Users\andre\VirtualBox VMs\Linux Mint\Linux Mint.vbox"
+00:00:45.690227          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:00:45.715625          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:59.312791 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:00:59.329728 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:59.332006 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:59.332542 USBPROXY usbLibGetDevices: Found 5 USB devices, 0 captured
+00:01:23.228916          Saving settings file "C:\Users\andre\VirtualBox VMs\Linux Mint\Linux Mint.vbox" with version "1.19-windows"
+00:01:23.239053          Finished saving settings file "C:\Users\andre\VirtualBox VMs\Linux Mint\Linux Mint.vbox"
+00:01:23.266601          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:01:23.380077          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:02:21.227577 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:02:21.246961 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:02:21.247343 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:02:21.247779 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:02:21.248310 USBPROXY usbLibGetDevices: Found 5 USB devices, 0 captured
+00:02:21.248418 USBPROXY USB: Unknown USB device detected (idVendor: 0x0408, idProduct: 0x1110)
+00:04:15.523713          Saving settings file "C:\Users\andre\VirtualBox VMs\Linux Mint\Linux Mint.vbox" with version "1.19-windows"
+00:04:15.531776          Finished saving settings file "C:\Users\andre\VirtualBox VMs\Linux Mint\Linux Mint.vbox"
+00:04:15.547251          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:04:15.573694          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:04:15.895571          Saving settings file "C:\Users\andre\VirtualBox VMs\Linux Mint\Linux Mint.vbox" with version "1.19-windows"
+00:04:15.901451          Finished saving settings file "C:\Users\andre\VirtualBox VMs\Linux Mint\Linux Mint.vbox"
+00:04:15.913391          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+00:04:15.934211          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:07:00.515288 dns-monitor HostDnsMonitor: updating information
+00:07:00.515333 dns-monitor HostDnsMonitor: unchanged
+03:17:04.552602 dns-monitor HostDnsMonitor: updating information
+03:17:04.552771 dns-monitor HostDnsMonitor: unchanged
+03:28:03.886882 dns-monitor HostDnsMonitor: updating information
+03:28:03.886940 dns-monitor HostDnsMonitor: unchanged
+03:28:06.419692 dns-monitor HostDnsMonitor: updating information
+03:28:06.419749 dns-monitor HostDnsMonitor: unchanged
+03:28:59.738517 dns-monitor HostDnsMonitor: updating information
+03:28:59.738560 dns-monitor HostDnsMonitor: unchanged
+05:17:33.204412 dns-monitor HostDnsMonitor: updating information
+05:17:33.204666 dns-monitor HostDnsMonitor: unchanged
+05:20:16.020590 dns-monitor HostDnsMonitor: updating information
+05:20:16.020673 dns-monitor HostDnsMonitor: unchanged
+08:31:49.728021          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+08:31:49.779216          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+08:31:49.800673          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Paused)}, preserve=false aResultDetail=0
+08:31:52.102519          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+08:31:52.169844          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+08:31:52.192877          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Stopping)}, preserve=false aResultDetail=0
+08:31:52.409880          Saving settings file "C:\Users\andre\VirtualBox VMs\Linux Mint\Linux Mint.vbox" with version "1.19-windows"
+08:31:52.417950          Finished saving settings file "C:\Users\andre\VirtualBox VMs\Linux Mint\Linux Mint.vbox"
+08:31:52.439468          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+08:31:52.470821          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+08:31:52.492894          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+08:31:52.540581          ERROR [COM]: aRC=E_INVALIDARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+08:31:54.035888          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={5bfd8965-b81b-469f-8649-f717ce97a5d5} aComponent={NvramStoreWrap} aText={The UEFI NVRAM file is not existing for this machine}, preserve=false aResultDetail=0
+08:31:54.071942          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+08:32:00.716817 main     VirtualBox: object deletion starts
+08:32:00.716972 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium 'C:\Users\andre\VirtualBox VMs\Linux Mint\Linux Mint.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+08:32:00.722630 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium 'C:\Users\andre\VirtualBox VMs\Fedora\Fedora.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+08:32:00.730456 main     HostDnsMonitor: shutting down ...
+08:32:00.730843 main     HostDnsMonitor: shut down
+08:32:00.744334 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+08:32:00.745275 main     VirtualBox: object deleted

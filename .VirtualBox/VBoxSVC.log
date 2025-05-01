@@ -1,0 +1,120 @@
+00:00:00.007152 main     VirtualBox COM Server 7.1.4 r165100 win.amd64 (Oct 10 2024 18:57:17) release log
+00:00:00.007158 main     Log opened 2025-01-27T15:07:29.588052400Z
+00:00:00.007159 main     Build Type: release
+00:00:00.007169 main     OS Product: Windows 11
+00:00:00.007170 main     OS Release: 10.0.26100
+00:00:00.007171 main     OS Service Pack: 
+00:00:00.085029 main     DMI Product Name: Surface Laptop Go
+00:00:00.109114 main     DMI Product Version: 124I:00057T:000M:0000000D:0B:04F:1C:05P:48S:01E:0Y:0K:0U:02
+00:00:00.109124 main     Firmware type: UEFI
+00:00:00.110320 main     Secure Boot: Enabled
+00:00:00.110346 main     Host RAM: 7778MB (7.5GB) total, 3368MB (3.2GB) available
+00:00:00.110356 main     Executable: C:\Program Files\Oracle\VirtualBox\VBoxSVC.exe
+00:00:00.110357 main     Process ID: 1188
+00:00:00.110358 main     Package type: WINDOWS_64BITS_GENERIC
+00:00:00.110363 main     Windows Features:
+00:00:00.110364 main       Core Isolation (Memory Integrity): ENABLED
+00:00:00.285716          VirtualBox: object creation starts
+00:00:00.286408          Home directory: 'C:\Users\andre\.VirtualBox'
+00:00:00.286913          Installed Drivers:
+00:00:00.327084          Loading settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:00.330715          usbLibGetDevices: Starting USB device enumeration
+00:00:00.351322          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:00.351434          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:00:00.351553          Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:00.355895          usbLibGetDevices: Found 4 USB devices, 0 captured
+00:00:00.355975          USB: Unknown USB device detected (idVendor: 0x0408, idProduct: 0x1110)
+00:00:00.356053          USB: Unknown USB device detected (idVendor: 0x04f3, idProduct: 0x0c5a)
+00:00:00.356152          USB: Unknown USB device detected (idVendor: 0x8087, idProduct: 0x0026)
+00:00:00.521904          netIfIsWireless: CreateFile on '\\.\{89F15BA9-31DF-43AD-A78C-8FCA1B7EC66B}' failed with rcWin=2 (0x2) - ignoring
+00:00:00.535892          HostDnsMonitor: initializing
+00:00:00.555134          HostDnsMonitor: updating information
+00:00:00.555169          HostDnsMonitor: old information
+00:00:00.555170            no server entries
+00:00:00.555178            no domain set
+00:00:00.555178            no search string entries
+00:00:00.555179          HostDnsMonitor: new information
+00:00:00.555181            server 1: 192.168.1.254
+00:00:00.555188            domain: attlocal.net
+00:00:00.555189            no search string entries
+00:00:00.561160          VD: VDInit finished with VINF_SUCCESS
+00:00:00.564317          Platform architecture set to 'x86'
+00:00:00.580592          Loading settings file "C:\Users\andre\VirtualBox VMs\Linux Mint\Linux Mint.vbox" with version "1.19-windows"
+00:00:00.581165          Platform architecture set to 'x86'
+00:00:00.581714          Platform architecture set to 'x86'
+00:00:00.597009          Loading settings file "C:\Users\andre\VirtualBox VMs\Fedora\Fedora.vbox" with version "1.19-windows"
+00:00:00.597463          Platform architecture set to 'x86'
+00:00:00.597908          Platform architecture set to 'x86'
+00:00:00.616283          Loading settings file "C:\Users\andre\VirtualBox VMs\VM1\VM1.vbox" with version "1.19-windows"
+00:00:00.616725          Platform architecture set to 'x86'
+00:00:00.618185          VirtualBox: object created
+00:00:01.077477          Saving settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.083709          Finished saving settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml"
+00:00:01.084282          Saving settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.091799          Finished saving settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml"
+00:00:01.092397          Saving settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml" with version "1.12-windows"
+00:00:01.111212          Finished saving settings file "C:\Users\andre\.VirtualBox\VirtualBox.xml"
+00:00:03.717306          NvramStore: Loading 'TpmEmuTpms/permall' from archive
+00:00:03.717537          NvramStore: Loading 'efi/nvram' from archive
+00:00:03.901625          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:12.729689          Launched VM: 2517891680 pid: 11872 (0x2e60) frontend: GUI/Qt name: VM1
+00:00:12.853666          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:25.829216          Platform architecture set to 'x86'
+00:00:26.207807          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:00:28.021844          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:28.200700          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:34.810280          netIfIsWireless: CreateFile on '\\.\{89F15BA9-31DF-43AD-A78C-8FCA1B7EC66B}' failed with rcWin=2 (0x2) - ignoring
+00:00:35.186375          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:35.210472          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:00:35.260060          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Starting)}, preserve=false aResultDetail=0
+00:00:35.439991          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={The machine is not mutable or saved (state is Starting)}, preserve=false aResultDetail=0
+00:00:36.917364          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:36.919480          ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Property 'CRYPT/KeyId' does not exist}, preserve=false aResultDetail=0
+00:00:36.921481          HostDnsMonitorProxy::GetDomainName: attlocal.net
+00:00:36.921655          HostDnsMonitorProxy::GetNameServers:
+00:00:36.921681            name server 1: 192.168.1.254
+00:00:36.921843          HostDnsMonitorProxy::GetSearchStrings:
+00:00:36.921868            no search string entries
+00:00:36.958424          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:00:37.083938          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:00:42.996062 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:00:43.020243 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:00:43.020625 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:00:43.021008 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:00:43.021758 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:01:29.301428 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:01:29.317244 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 5
+00:01:29.317442 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:01:29.317619 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:01:29.317972 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:07:05.257338          Saving settings file "C:\Users\andre\VirtualBox VMs\VM1\VM1.vbox" with version "1.19-windows"
+00:07:05.271142          Finished saving settings file "C:\Users\andre\VirtualBox VMs\VM1\VM1.vbox"
+00:07:05.338428          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:07:09.089126          Saving settings file "C:\Users\andre\VirtualBox VMs\VM1\VM1.vbox" with version "1.19-windows"
+00:07:09.146018          Finished saving settings file "C:\Users\andre\VirtualBox VMs\VM1\VM1.vbox"
+00:07:09.184697          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Running)}, preserve=false aResultDetail=0
+00:27:09.625678 USBPROXY usbLibGetDevices: Starting USB device enumeration
+00:27:09.650844 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 6
+00:27:09.651234 USBPROXY Getting USB descriptor (id 0) failed (dwErr=31) on hub USB#ROOT_HUB30#4&18b7230f&0&0#{f18a0e88-c30c-11d0-8815-00a0c906bed8} port 10
+00:27:09.654668 USBPROXY usbLibGetDevices: Found 4 USB devices, 0 captured
+00:43:44.574016          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:43:44.660677          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Paused)}, preserve=false aResultDetail=0
+00:43:48.158455          Saving settings file "C:\Users\andre\VirtualBox VMs\VM1\VM1.vbox" with version "1.19-windows"
+00:43:48.178657          Finished saving settings file "C:\Users\andre\VirtualBox VMs\VM1\VM1.vbox"
+00:43:48.228816          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Stopping)}, preserve=false aResultDetail=0
+00:43:48.262495          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:43:48.464546          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is Stopping)}, preserve=false aResultDetail=0
+00:43:48.653860          Saving settings file "C:\Users\andre\VirtualBox VMs\VM1\VM1.vbox" with version "1.19-windows"
+00:43:48.664516          Finished saving settings file "C:\Users\andre\VirtualBox VMs\VM1\VM1.vbox"
+00:43:48.687580          ERROR [COM]: aRC=E_FAIL (0x80004005) aIID={bea3ef5c-de2f-4b74-aa3a-15d6249371a0} aComponent={RecordingSettingsWrap} aText={Recording not started}, preserve=false aResultDetail=0
+00:43:48.750388          ERROR [COM]: aRC=E_INVALIDARG (0x80070057) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={SessionMachine} aText={Properties with TRANSIENT or TRANSRESET flag cannot be set or modified if VM is not running}, preserve=false aResultDetail=0
+00:43:48.827874          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+00:43:50.347092          ERROR [COM]: aRC=VBOX_E_INVALID_VM_STATE (0x80bb0002) aIID={e36a5081-a82a-40bd-9e4e-42a44d6ce50f} aComponent={MachineWrap} aText={The machine is not mutable, saved or running (state is PoweredOff)}, preserve=false aResultDetail=0
+01:15:48.595735 main     VirtualBox: object deletion starts
+01:15:48.595928 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium 'C:\Users\andre\VirtualBox VMs\Linux Mint\Linux Mint.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:15:48.599476 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium 'C:\Users\andre\VirtualBox VMs\Fedora\Fedora.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:15:48.600814 main     ERROR [COM]: aRC=VBOX_E_OBJECT_IN_USE (0x80bb000c) aIID={7d510820-a678-4730-a862-818dcd3fbed0} aComponent={MediumWrap} aText={Medium 'C:\Users\andre\VirtualBox VMs\VM1\VM1.vdi' cannot be closed because it is still attached to 1 virtual machines}, preserve=false aResultDetail=0
+01:15:48.625837 main     HostDnsMonitor: shutting down ...
+01:15:48.626169 main     HostDnsMonitor: shut down
+01:15:48.801012 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d644ad1e-c501-4fc7-9ab6-aa6d763bc540} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+01:15:48.801917 main     VirtualBox: object deleted

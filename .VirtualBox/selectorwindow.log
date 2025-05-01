@@ -1,0 +1,25 @@
+00:00:01.517802 VirtualBox GUI VM Selector Window 7.1.4 r165100 win.amd64 (Oct 10 2024 18:57:17) release log
+00:00:01.517805 Log opened 2025-01-27T15:07:30.599854200Z
+00:00:01.517805 Build Type: release
+00:00:01.517811 OS Product: Windows 11
+00:00:01.517813 OS Release: 10.0.26100
+00:00:01.517813 OS Service Pack: 
+00:00:01.549519 DMI Product Name: Surface Laptop Go
+00:00:01.561565 DMI Product Version: 124I:00057T:000M:0000000D:0B:04F:1C:05P:48S:01E:0Y:0K:0U:02
+00:00:01.561579 Firmware type: UEFI
+00:00:01.562950 Secure Boot: Enabled
+00:00:01.563031 Host RAM: 7778MB (7.5GB) total, 3318MB (3.2GB) available
+00:00:01.563038 Executable: C:\Program Files\Oracle\VirtualBox\VirtualBox.exe
+00:00:01.563039 Process ID: 1696
+00:00:01.563040 Package type: WINDOWS_64BITS_GENERIC
+00:00:01.563040 Windows Features:
+00:00:01.563044   Core Isolation (Memory Integrity): ENABLED
+00:00:01.563315 Qt version: 6.5.3
+00:00:01.564947 GUI: UIMediumEnumerator: Initial medium-enumeration finished!
+00:00:01.643819 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:04.072329 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:07:05.795727 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:07:09.651124 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:43:48.693270 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:43:51.915080 GUI: UICommon: Handling aboutToQuit request..
+00:43:52.962197 GUI: UICommon: aboutToQuit request handled!
